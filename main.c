@@ -2,7 +2,7 @@
 #include <dirent.h>
 #include <sys/types.h>
 
-void ls();
+void ls(int argc, char *argv[]);
 
 int main(int argc, char *argv[]) {
     ls(argc, argv);
